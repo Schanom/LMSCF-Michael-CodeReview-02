@@ -5,7 +5,7 @@ header {
   height: 133px;
   background-color: #5C191B; }
 
-#Logo {
+.Logo {
   margin: 20px;
   margin-top: 46.5px; }
 
@@ -14,24 +14,40 @@ header {
   margin: 20px;
   margin-top: 30px; }
 
-nav {
+#topNav {
   background-color: #1A1A1A; }
 
-nav ul {
+#topNav ul {
   margin: 0;
-  list-style-type: none;
-  overflow: hidden; }
+  list-style-type: none; }
 
 li {
-  float: left; }
+  display: inline-block; }
 
-li a {
+#topNav li a {
   text-decoration: none;
-  display: block;
+  display: inline-block;
   padding: 15px;
   padding-left: 30px;
   color: #F0ECEC;
   font-size: 200%; }
+
+#bottomNav {
+  background-color: #1A1A1A;
+  margin-top: 100px; }
+
+#bottomNav ul {
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden; }
+
+#bottomNav li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  padding-left: 30px;
+  color: #F0ECEC;
+  font-size: 100%; }
 
 main {
   width: 90%;
@@ -45,15 +61,11 @@ h1 {
   justify-content: space-between; }
 
 #left {
-  width: 100%;
-  justify-content: space-between; }
+  width: 100%; }
 
 .picRow {
   justify-content: space-between;
   display: flex; }
-
-.PicRow {
-  width: 30%; }
 
 #popular {
   margin-bottom: 25px;
@@ -66,22 +78,62 @@ h1 {
   height: 100%;
   float: right; }
 
-#banner3 {
-  align-items: center;
-  width: 90%;
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
 .containerBild {
   position: relative;
   text-align: center;
   color: white;
   width: 30%; }
 
-.bottom-left {
+.containerBild1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 45%;
+  margin-bottom: 50px; }
+
+.containerBild2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 45%; }
+
+.textBild {
   position: absolute;
   bottom: 0px;
   background-color: black;
-  font-size: 150%; }
+  font-size: 150%;
+  padding-top: 12px;
+  padding-bottom: 12px; }
+
+.textBild1 {
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+  font-size: 250%;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+#banner3 {
+  align-items: center;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+#footer {
+  width: 100%;
+  background: #1A1A1A;
+  height: 150px; }
+
+#footerlogo {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px; }
+
+#footertext {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 150%;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
