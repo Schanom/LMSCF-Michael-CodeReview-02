@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Lisa">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="NAMEDERDATEI.html">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Code Review 2</title>
+</head>
+<body>
+
+	<header>
+		<img class="Logo" src="img/logo-newspaper-cf.png" alt="Logo_Newspaper_cf">
+		<a href="https://codefactory.wien/de/home/">
+		<img id="Banner" src="img/banner-1.png" alt="Banner_1"></a>
+	</header>
+
+	<nav id="topNav">
+		<ul>
+			<li><a href="index.html" title="Home">Home</a></li>
+			<li><a href="tech.html" title="Tech">Tech</a></li>
+			<li><a href="culture.html" title="Culture">Culture</a></li>
+			<li><a href="video.html" title="Video">Video</a></li>
+		</ul>
+	</nav>
+
+	<script id="Date">
+		var today = new Date();
+        var date = today.getDate()+'.'+(today.getMonth()+1)+'.'+today.getFullYear();
+        document.write(date);
+	</script>
+
+	<main>
+		<h1 align="Center" id="articleH1">This is the Culture page</h1>
+		<img width="100%" src="img/culture.jpg" alt="Culture" align="center">
+	</main>
+
+	<footer id="footer">
+		<nav id="bottomNav">
+			<ul>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="tech.html" title="Tech">Tech</a></li>
+				<li><a href="culture.html" title="Culture">Culture</a></li>
+				<li><a href="video.html" title="Video">Video</a></li>
+			</ul>
+		</nav>
+		<div id="footerlogo">
+			<img src="img/logo-newspaper-cf.png" alt="CF Logo">
+		</div>
+		<p id="footertext">Michael Schano Code Factory 2020</p>
+	</footer>
+</body>
+</html>
