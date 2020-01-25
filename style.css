@@ -2,9 +2,6 @@ body {
   margin: 0; }
 
 @media screen and (min-width: 481px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1) {
-  body {
-    background-color: blue; }
-
   header {
     height: 133px;
     background-color: #5C191B; }
@@ -15,6 +12,7 @@ body {
 
   #Banner {
     float: right;
+    width: 45%;
     margin: 20px;
     margin-top: 30px; }
 
@@ -42,8 +40,7 @@ body {
 
   #bottomNav ul {
     margin: 0;
-    list-style-type: none;
-    overflow: hidden; }
+    list-style-type: none; }
 
   #bottomNav li a {
     text-decoration: none;
@@ -59,14 +56,10 @@ body {
 
   #time {
     display: flex;
-    justify-content: flex-end;
-    margin: 0; }
+    justify-content: flex-end; }
 
   .greyBack {
     background-color: #DDDDDD; }
-
-  #articleH1 {
-    background-color: white; }
 
   #TopNews {
     display: flex;
@@ -96,10 +89,10 @@ body {
     color: white;
     width: 30%; }
 
-  .Hidden {
+  #Hidden {
     display: none; }
 
-  .containerBildHidden {
+  #containerBildHidden {
     display: none; }
 
   .containerBild1 {
@@ -119,17 +112,17 @@ body {
     position: absolute;
     bottom: 0px;
     background-color: black;
-    font-size: 150%;
-    padding-top: 12px;
-    padding-bottom: 12px; }
+    font-size: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px; }
 
   .textBild1 {
     position: absolute;
     bottom: 0px;
     background-color: black;
-    font-size: 250%;
-    padding-top: 25px;
-    padding-bottom: 25px; }
+    font-size: 138%;
+    padding-top: 10px;
+    padding-bottom: 10px; }
 
   #banner3 {
     align-items: center;
@@ -214,9 +207,6 @@ body {
   .greyBack {
     background-color: #DDDDDD; }
 
-  #articleH1 {
-    background-color: white; }
-
   #TopNews {
     display: flex;
     justify-content: space-between; }
@@ -245,10 +235,10 @@ body {
     color: white;
     width: 30%; }
 
-  .Hidden {
+  #Hidden {
     display: none; }
 
-  .containerBildHidden {
+  #containerBildHidden {
     display: none; }
 
   .containerBild1 {
@@ -276,7 +266,7 @@ body {
     position: absolute;
     bottom: 0px;
     background-color: black;
-    font-size: 250%;
+    font-size: 216%;
     padding-top: 25px;
     padding-bottom: 25px; }
 
@@ -303,9 +293,6 @@ body {
     font-size: 150%;
     color: white; } }
 @media screen and (max-width: 480px) {
-  body {
-    background-color: grey; }
-
   main {
     width: 90%;
     margin-left: 5%; }
@@ -362,44 +349,48 @@ body {
     color: #F0ECEC;
     font-size: 120%; }
 
+  .greyBack {
+    background-color: #DDDDDD; }
+
   .picRow {
-    column-count: 2; }
+    column-count: 2;
+    margin-top: 10px; }
 
   .containerBild {
     position: relative;
     text-align: center;
     color: white;
     width: 100%;
-    margin-bottom: 50px; }
+    margin-bottom: 10px; }
 
-  .Hidden {
+  #Hidden {
     display: block; }
 
-  .containerBildHidden {
+  #containerBildHidden {
     position: relative;
     text-align: center;
     color: white;
-    width: 100%;
-    margin-bottom: 50px; }
+    width: 100%; }
 
   .containerBild1 {
     position: relative;
     text-align: center;
     color: white;
     width: 100%;
-    margin-bottom: 50px; }
+    margin-bottom: 10px; }
 
   .containerBild2 {
     position: relative;
     text-align: center;
     color: white;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 10px; }
 
   .textBild {
     position: absolute;
     bottom: 0px;
     background-color: black;
-    font-size: 30%;
+    font-size: 80%;
     padding-top: 12px;
     padding-bottom: 12px; }
 
@@ -407,7 +398,7 @@ body {
     position: absolute;
     bottom: 0px;
     background-color: black;
-    font-size: 60%;
+    font-size: 100%;
     padding-top: 10px;
     padding-bottom: 10px; }
 

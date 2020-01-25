@@ -32,7 +32,7 @@
 			<span id="spandate"></span>
 		</div>
 
-		<h1 align="Center" id="articleH1">This is the Article Page, it pages articles</h1>
+		<h1 align="Center">This is the Article Page, it pages articles</h1>
 		<img width="100%" src="img/article.jpg" alt="Newspapers" align="center">
 	</main>
 
@@ -52,11 +52,14 @@
 	</footer>
 
 	<script type="text/javascript">
-           var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+			var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
        
 			var tomorrow = new Date();
 			tomorrow.setTime(tomorrow.getTime());       
 			document.getElementById("spandate").innerHTML = months[tomorrow.getMonth()] + " " + tomorrow.getDate()+ ", " + tomorrow.getFullYear();
+
+			var Hello = "Hello from the console :)";
+			console.log(Hello);
 	</script>
 </body>
 </html>
