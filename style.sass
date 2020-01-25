@@ -2,6 +2,7 @@ body
 	margin: 0
 
 @media screen and (min-width: 481px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1)
+	//Everything Header related
 	header
 		height: 133px
 		background-color: #5C191B
@@ -15,7 +16,8 @@ body
 		width: 45%
 		margin: 20px
 		margin-top: 30px
-
+	
+	//Navigation Bar on Top
 	#topNav
 		background-color: #1A1A1A
 
@@ -34,6 +36,7 @@ body
 		color: #F0ECEC
 		font-size: 200%
 
+	//Navigation Bar on bottom
 	#bottomNav
 		background-color: #1A1A1A
 		margin-top: 100px
@@ -49,7 +52,8 @@ body
 		padding-left: 30px
 		color: #F0ECEC
 		font-size: 100%
-
+	
+	//Main Content!!!
 	main
 		width: 90%
 		margin-left: 5%
@@ -57,10 +61,10 @@ body
 	#time
 		display: flex
 		justify-content: flex-end
-
+	//Headline
 	.greyBack
 		background-color: #DDDDDD
-
+	//Articles
 	#TopNews
 		display: flex
 		justify-content: space-between
@@ -71,7 +75,7 @@ body
 	.picRow
 		justify-content: space-between
 		display: flex
-
+	//Headline2
 	#popular
 		margin-bottom: 25px
 		width: 100%
@@ -82,7 +86,7 @@ body
 	#banner22
 		height: 100%
 		float: right
-
+	//Pictures
 	.containerBild
 		position: relative
 		text-align: center
@@ -107,7 +111,7 @@ body
 		text-align: center
 		color: white
 		width: 45%
-
+	//Text for pictures
 	.textBild
 		position: absolute
 		bottom: 0px
@@ -129,7 +133,7 @@ body
 		width: 90%
 		margin-top: 50px
 		margin-bottom: 50px
-
+	//Footer
 	#footer
 		width: 100%
 		background: #1A1A1A
@@ -148,6 +152,7 @@ body
 		color: white
 
 @media screen and (min-width: 1200px) and (max-width: 3000px) and (-webkit-min-device-pixel-ratio: 1)
+	//Everything Header related
 	header
 		height: 133px
 		background-color: #5C191B
@@ -161,6 +166,7 @@ body
 		margin: 20px
 		margin-top: 30px
 
+	//Navigation Bar on Top
 	#topNav
 		background-color: #1A1A1A
 
@@ -178,7 +184,8 @@ body
 		padding-left: 30px
 		color: #F0ECEC
 		font-size: 200%
-
+	
+	//Navigation Bar on bottom
 	#bottomNav
 		background-color: #1A1A1A
 		margin-top: 100px
@@ -196,6 +203,7 @@ body
 		color: #F0ECEC
 		font-size: 100%
 
+	//Main Content!!!
 	main
 		width: 90%
 		margin-left: 5%
@@ -204,10 +212,12 @@ body
 		display: flex
 		justify-content: flex-end
 		margin: 0
-		
+
+	//Headline
 	.greyBack
 		background-color: #DDDDDD
 
+	//Articles
 	#TopNews
 		display: flex
 		justify-content: space-between
@@ -219,6 +229,7 @@ body
 		justify-content: space-between
 		display: flex
 
+	//Headline2
 	#popular
 		margin-bottom: 25px
 		width: 100%
@@ -230,6 +241,7 @@ body
 		height: 100%
 		float: right
 
+	//Pictures
 	.containerBild
 		position: relative
 		text-align: center
@@ -256,6 +268,7 @@ body
 		color: white
 		width: 45%
 
+	//Text for pictures
 	.textBild
 		position: absolute
 		bottom: 0px
@@ -278,6 +291,7 @@ body
 		margin-top: 50px
 		margin-bottom: 50px
 
+	//Footers
 	#footer
 		width: 100%
 		background: #1A1A1A
@@ -296,13 +310,7 @@ body
 		color: white
 
 @media screen and (max-width: 480px)
-	main
-		width: 90%
-		margin-left: 5%
-
-	#spandate
-		display: none
-
+	//Everything Header related
 	header
 		height: 75px
 		width: 100%
@@ -316,6 +324,7 @@ body
 	#Banner
 		display: none
 
+	//Navigation Bar on Top
 	#topNav
 		background-color: #1A1A1A
 		text-align: center
@@ -325,6 +334,17 @@ body
 		padding: 0
 		list-style-type: none
 
+	li
+		display: inline-block
+
+	#topNav li a
+		text-decoration: none
+		display: inline-block
+		padding: 10px
+		color: #F0ECEC
+		font-size: 120%
+
+	//Navigation Bar on bottom
 	#bottomNav
 		background-color: #1A1A1A
 		margin-top: 100px
@@ -341,24 +361,28 @@ body
 		padding-left: 30px
 		color: #F0ECEC
 		font-size: 100%
+	
+	//Main Content!!!
+	main
+		width: 90%
+		margin-left: 5%
 
-	li
-		display: inline-block
+	#spandate
+		display: none
 
-	#topNav li a
-		text-decoration: none
-		display: inline-block
-		padding: 10px
-		color: #F0ECEC
-		font-size: 120%
-
+	//Headline
 	.greyBack
 		background-color: #DDDDDD
 
+	//Articles
 	.picRow
 		column-count: 2
 		margin-top: 10px
-
+	
+	#banner2
+		display: none
+	
+	//Pictures
 	.containerBild
 		position: relative
 		text-align: center
@@ -389,6 +413,7 @@ body
 		width: 100%
 		margin-bottom: 10px
 
+	//Text for pictures
 	.textBild
 		position: absolute
 		bottom: 0px
@@ -405,14 +430,10 @@ body
 		padding-top: 10px
 		padding-bottom: 10px
 
-	#banner2
-		display: none
-
 	#banner3
 		display: none
 
-	#popular
-
+	//Footer
 	#footer
 		width: 100%
 		background: #1A1A1A
