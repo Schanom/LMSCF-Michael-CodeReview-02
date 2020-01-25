@@ -27,13 +27,10 @@
 		</ul>
 	</nav>
 
-	<script id="Date">
-		var today = new Date();
-        var date = today.getDate()+'.'+(today.getMonth()+1)+'.'+today.getFullYear();
-        document.write(date);
-	</script>
-
 	<main>
+		<div id="time">
+			<span id="spandate"></span>
+		</div>
 		<h1 align="Center" id="articleH1">This is the Culture page</h1>
 		<img width="100%" src="img/culture.jpg" alt="Culture" align="center">
 	</main>
@@ -52,5 +49,12 @@
 		</div>
 		<p id="footertext">Michael Schano Code Factory 2020</p>
 	</footer>
+	<script type="text/javascript">
+           var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+       
+			var tomorrow = new Date();
+			tomorrow.setTime(tomorrow.getTime());       
+			document.getElementById("spandate").innerHTML = months[tomorrow.getMonth()] + " " + tomorrow.getDate()+ ", " + tomorrow.getFullYear();
+	</script>
 </body>
 </html>
